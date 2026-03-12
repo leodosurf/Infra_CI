@@ -4,7 +4,7 @@ resource "aws_db_instance" "default" {
   engine               = "postgres"
   instance_class       = "db.t3.micro"
   username             = "postgres"
-  password             = "rootroot"
+  password             = "102030405060"
   skip_final_snapshot  = true
   publicly_accessible  = true
   db_subnet_group_name = module.vpc.database_subnet_group_name
